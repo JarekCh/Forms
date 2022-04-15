@@ -4,25 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>Form Structure Task</title>
 </head>
 <body>
     <form>
-        <legend
-        <h1>Task</h1>
+        <h1>Task</h1>        
         <p>Required fields are followed by <strong><abbr title="required">*</abbr></strong>.</p>
         <section>
             <fieldset>
-                <legend>Personal details</legend>         
-                <label for="name">
-                    <span>Name:</span>
-                <input type="text" id="name" name="name">              
-                </label>        
-                
-                <label for="age">
-                    <span>Age:</span>
-                    <input type="number" id="age" name="age">                
-                </label>
+                <legend>Personal details</legend>   
+                <p>      
+                    <label for="name">
+                        <span>Name:</span>
+                        <strong><abbr title="required">*</abbr></strong>
+                    <input type="text" id="name" name="name">              
+                    </label>
+                </p>  
+                <p>
+                    <label for="age">
+                        <span>Age:</span>
+                        <strong><abbr title="required">*</abbr></strong>
+                        <input type="number" id="age" name="age">                
+                    </label>
+                </p>
             </fieldset>   
             <fieldset>                
                 <legend>Comment information</legend>  
@@ -34,13 +39,13 @@
                 </p>
                 <p>                
                     <label for="email">
-                        <span>Email:</span>            
+                        <span>Email:</span>
+                        <strong><abbr title="required">*</abbr></strong>           
                         <input type="email" id="email" name="email">                        
                     </label>
                 </p>
             </fieldset>
         </section>
-      </form>
-          
+      </form>          
 </body>
 </html>
