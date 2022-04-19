@@ -1,0 +1,7 @@
+Basic controls 3
+
+The final task in this set requires you to create a file picker.
+
+    Create a basic file picker.
+    Allow the user to pick multiple files at once.
+    Allow the file picker to accept JPG and PNG images only.
