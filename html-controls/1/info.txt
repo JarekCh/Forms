@@ -1,0 +1,8 @@
+HTML5 controls 1
+
+First let's explore some of the new HTML5 input types. Create appropriate inputs for a user to update their details for:
+
+    Email
+    Website
+    Phone number
+    Favorite color
