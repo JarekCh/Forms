@@ -1,0 +1,7 @@
+Other controls 2
+
+Now it's time to have a go at implementing a drop-down select menu, to allow a user to pick their favorite food from the choices provided.
+
+    Create your basic select box structure.
+    Associate it semantically with the provided "food" label.
+    Inside the list, split the choices up into 2 subgroups — "mains" and "snacks".
