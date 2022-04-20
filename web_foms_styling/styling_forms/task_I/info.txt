@@ -1,0 +1,7 @@
+Styling basics 1
+
+Our basic form styling assessment is fairly free-form, and you have a lot of flexibility over what you end up doing here. But your CSS should aim to fulfill the following requirements:
+
+    Add some kind of lightweight "reset" to make fonts, padding, margin, and sizing more consistent to begin with.
+    On top of that, add in some nice, consistent styling for the inputs and button.
+    Use some kind of layout technique to make the inputs and labels line up neatly.
